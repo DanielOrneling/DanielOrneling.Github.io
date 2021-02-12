@@ -3,6 +3,15 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+My name is Daniel Örneling and I work as a senior consultant at AddPro based in Sweden. My focus lies with Azure Infrastructure but with a little extra love for Azure Monitor and the different ways of automating things.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+In this blog, you will find news and information covering Azure Monitor, Azure Automation, Azure in general, System Center Operations Manager and much more.  I started the blog somewhere back in 2012 as a way to share my knowledge with all of you out there, but also as a notebook for myself. I hope you will find the blog useful and keep your eyes open for recommendations and implementation guidelines. All of my posts are provided AS-IS with no warranties.
+
+My Microsoft certifications are the following:
+
+Implementing Microsoft Azure Infrastructure Solutions
+Microsoft Certified Solutions Expert: Private Cloud
+Microsoft Certified Solutions Expert: Cloud Platform and Infrastructure
+Microsoft Certified Solutions Associate: Windows Server 2012
+If you need to get in touch with me or have any concerns or questions, drop me an e-mail at daniel[at]orneling.se or find me on LinkedIn.
+(assets/images/ProfilePic.jpg)
