@@ -1,5 +1,5 @@
 ---
-title: "Link archive"
+title: "Links"
 permalink: /links/
 
 This is the place where you can find great Azure links and other related product sites.
