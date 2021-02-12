@@ -14,14 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MM
-email:
+email: Daniel@Orneling.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  A blog about Azure by Daniel Örneling.
+twitter_username: DanielOrneling
+github_username: DanielOrneling
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -31,7 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Stockholm
 
 include:
   - _pages
@@ -58,19 +56,16 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Daniel Örneling"
+  avatar : "/assets/images/ProfilePic.jpg"
+  bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/danielorneling"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/DanielOrneling"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
@@ -79,13 +74,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://twitter.com/danielorneling"
+    - label: "RSS Feed"
+      icon: "fab fa-fw fa-rss"
+      url: "https://blog.orneling.se/feed/"   
 
 defaults:
   # _posts
