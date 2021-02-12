@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Daniel Örneling"
-  avatar : "/assets/images/ProfilePic.jpg"
+  avatar : "/assets/images/ProfilePic_large.jpg"
   bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
   links:
     - label: "Twitter"
