@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/daniel-orneling/"
     - label: "Mail"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fab fa-fw fa-mail"
       url: "mailto:Daniel@Orneling.se"
 
 footer:
