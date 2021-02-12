@@ -1,8 +1,8 @@
 ---
 title: "Link archive"
-date: "2015-03-05"
-sitemap: false
-permalink: /links.html
+permalink: /links
+layout: links
+author_profile: true
 ---
 
 This is the place where you can find great Azure links and other related product sites.
