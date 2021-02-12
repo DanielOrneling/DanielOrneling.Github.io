@@ -71,7 +71,7 @@ author:
       url: "https://www.linkedin.com/in/daniel-orneling/"
     - label: "Mail"
       icon: "fab fa-fw fa-envelope"
-      url: "Daniel@Orneling.se"
+      url: "mailto:Daniel@Orneling.se"
 
 footer:
   links:
