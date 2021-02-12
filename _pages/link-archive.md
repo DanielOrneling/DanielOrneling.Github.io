@@ -1,5 +1,5 @@
 ---
-title: "Link archive"
+title: "Links"
 permalink: /links/
 ---
 
