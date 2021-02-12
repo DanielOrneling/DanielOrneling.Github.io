@@ -78,14 +78,14 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danielorneling"
-    - label: ""
+    - label: "RSS"
       icon: "fab fa-fw fa-rss"
       url: "https://blog.orneling.se/feed/"  
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
