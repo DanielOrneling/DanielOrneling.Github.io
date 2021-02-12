@@ -70,7 +70,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/daniel-orneling/"
     - label: "Mail"
-      icon: "fab fa-fw envelope"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:Daniel@Orneling.se"
 
 footer:
@@ -78,7 +78,7 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danielorneling"
-    - label: "Blog feed"
+    - label: "Feed"
       icon: "fab fa-fw fa-rss"
       url: "https://blog.orneling.se/feed/"  
 
