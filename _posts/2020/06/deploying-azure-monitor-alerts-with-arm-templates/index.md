@@ -1,5 +1,6 @@
 ---
 title: "ARM Templates: Deploying Azure Monitor Alerts"
+layout: single
 excerpt_separator: "<!--more-->"
 date: "2020-06-03"
 categories: 
