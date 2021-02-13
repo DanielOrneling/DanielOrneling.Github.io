@@ -1,19 +1,16 @@
 ---
 title: "ARM Templates: Deploying Azure Monitor Alerts"
-layout: single
 excerpt_separator: "<!--more-->"
-date: "2020-06-03"
 categories: 
-  - "arm-templates"
-  - "azure"
-  - "azure-monitor"
-  - "log-analytics"
-  - "orneling-se"
+  - arm-templates
+  - azure
+  - azure-monitor
+  - log-analytics
 tags: 
-  - "armtemplates"
-  - "azure"
-  - "azure-monitor"
-  - "resourcemanager"
+  - armtemplates
+  - azure
+  - azure-monitor
+  - resourcemanager
 ---
 
 In my series of blog posts about working with ARM templates I have gone through a lot of different use cases. In the last post I covered how to deploy a nested template to keep the main template a lot cleaner. One thing all posts have in common is that I´m using Azure Monitor as the main track which I´m deploying. I have deployed dozens of Log Analytics Workspaces for this. Now it´s time for deploying Azure Monitor alerts as well.
