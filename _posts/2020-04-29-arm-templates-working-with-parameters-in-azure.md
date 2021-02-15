@@ -25,7 +25,7 @@ The two examples below show the single string way, while the other shows the obj
 
 The amount of tags I put in is the same, but here it´s combined into one single parameter instead of three. The main difference is that I erase the single parameter (the bottom square) and rely only on the upper one instead.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/parameters-1.png)
+![](https://blog.orneling.se/assets/images/2020/04/parameters-1.png)
 
 ### **Using the parameter values**
 
@@ -35,7 +35,7 @@ Before we had to write _“\[concat(parameters(‘Department’))\]”_ for exam
 
 This way of doing things is not limited to tags in any way, but it can be used for any parameter of your choice.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/parameters-2.png)
+![](https://blog.orneling.se/assets/images/2020/04/parameters-2.png)
 
 ### **Changing the parameters file**
 
@@ -43,7 +43,7 @@ Now when we´ve changed the way we´re writing the parameters, we also need to u
 
 _The Department parameter in the bottom square is not in the final parameters file. It´s only there for the purpose of this demo._
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/parameters-3.png)
+![](https://blog.orneling.se/assets/images/2020/04/parameters-3.png)
 
 ### **Deploying the template**
 
@@ -51,11 +51,11 @@ When deploying the template, I have used the same PowerShell script I´ve been u
 
 What you see below is the output in PowerShell after a successful deployment.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/parameters-4.png)
+![](https://blog.orneling.se/assets/images/2020/04/parameters-4.png)
 
 Looking in the Azure portal we can see the tags are added just as expected. There´s no difference in the functionality with this better way of doing parameters, it just saves us time and lines of code.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/parameters-5.png)
+![](https://blog.orneling.se/assets/images/2020/04/parameters-5.png)
 
 ### **Summary**
 

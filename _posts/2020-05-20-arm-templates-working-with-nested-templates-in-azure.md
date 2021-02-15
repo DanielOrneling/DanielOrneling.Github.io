@@ -30,7 +30,7 @@ When wanting to add anything, such as in this case a performance counter or an e
 
 As you can see below, there are some information needed, but everything is quite straight forward once you get a hold of it. The name of the resource as seen below needs to be unique for the template. There are a total of twelve performance counters added with this template, along with the System, Application and Setup event logs.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-1.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-1.png)
 
 ### Adding saved searches to a template
 
@@ -40,7 +40,7 @@ When it comes to the resources, it´s not a big difference in how you write it. 
 
 Looking at the "Query" section below, the \\r\\n in the query are JSON formatting to switch line in the query.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-2.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-2.png)
 
 ### Calling the nested template
 
@@ -48,7 +48,7 @@ What I´ve done for this demo is that I have uploaded the template I will be cal
 
 This variable will be used when the main template calls the nested one, and knows where to find it.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-3.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-3.png)
 
 Using a nested template is quite easy actually. Just need to understand the language to be used first (of course). It goes in to the template as a resource and there are some things you need to be aware of.
 
@@ -56,7 +56,7 @@ In the properties section, set the mode to incremental and the URI to the link w
 
 You can also choose to pass parameters on to the nested template. See below for how that´s done. This is why you should never set a value for the parameter in the nested template as I mentioned above. If there is a value in the nested template, the value you pass on from here will be overwritten by the default value in the nested template.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-4.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-4.png)
 
 ### Deploying the template
 
@@ -64,17 +64,17 @@ As usual, I have used a PowerShell script to deploy the template. Find the link 
 
 As you can see there have been some tagging, you can see the workspace name and location.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-5.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-5.png)
 
 ### Looking at the results
 
 When we look into the advanced settings section of the workspace, we can see that our performance counters have been deployed. Together with the timing intervals I mentioned above. These counters will now be collected from the servers reporting to the workspace, and can be used when writing queries.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-6.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-6.png)
 
 When it comes to the queries we deployed with the nested template, these can be seen in the Saved Searches section of the workspace. Some queries with basic checks for CPU, disk and memory (and some more) that can be used to generate alerts when something happens with your server(s).
 
-![](https://danielorneling.github.io/assets/images/posts/2020/05/nested-templates-7.png)
+![](https://blog.orneling.se/assets/images/2020/05/nested-templates-7.png)
 
 ### Summary
 

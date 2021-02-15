@@ -31,13 +31,13 @@ I am deploying a workspace with a bunch of performance counters pre-configured o
 
 Before we can deploy the alert rules, we need to state what kind of information we need. The first thing I´m going to do is to set the e-mail recipient of the alerts I will be creating. There is a possibility to ad SMS recipients as well, but I won´t go through that in this post. Basically, what you need to state is the name of the recipient and it´s e-mail address. I´ve chosen to put this as a parameter since this is most likely something that will change for most deployments.
 
-![Azure ARM Template - Azure Monitor alert recipient](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-1.png)
+![Azure ARM Template - Azure Monitor alert recipient](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-1.png)
 
 The next thing I will do is to prepare the name of the action group to create, and a short name for it as variables. What you need to know is that the short name can never exceed 12 characters. That´s why I´ve put a rather simple name for it with the workspace name followed by “-AG”.
 
 The QueriesAlertsLink variable is pointing to my Azure storage account, but you can use the link already in the template as it´s publicly accessible. This is where the main template will look for the nested template containing all the alert rules.
 
-![Azure ARM Template - Variables](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-2.png)
+![Azure ARM Template - Variables](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-2.png)
 
 ### **Preparing the main template with the resources needed**
 
@@ -45,17 +45,17 @@ In this main template we will add two resources. An action group and a nested de
 
 As you can see below, I have highlighted the most important things in this deployment. As I mentioned above, you can create SMS recipients as well, but for this demo I will only add myself with my e-mail address. The action group depends on the workspace which is created through the main template, and it´s also towards that workspace the alerts will look for the information to trigger on.
 
-![Azure ARM Template - Azure Monitor alert deployment](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-3.png)
+![Azure ARM Template - Azure Monitor alert deployment](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-3.png)
 
 The nested deployment itself isn´t that different from what I showed in my previous post. It´s basically another template and with one more parameter passed on, the actionGroupName variable. If you´re curious for more information about nested templates, read about that [here](https://blog.orneling.se/2020/05/arm-templates-working-with-nested-templates-in-azure/).
 
-![Azure ARM Template - Nested template deployment](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-4.png)
+![Azure ARM Template - Nested template deployment](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-4.png)
 
 ### **Looking at the template containing the alert rules**
 
 Looking at the template used for deploying Azure Monitor alerts, we can see the parameters section will get the information that is being pushed in during the deployment. The workspace and action group name is used to pick up the resource Id of those two resources to be used later on.
 
-![Azure ARM Template - Parameters](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-5.png)
+![Azure ARM Template - Parameters](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-5.png)
 
 The information needed to declare an alert in an ARM template is seen below. I have highlighted the important things that make up the alert itself. You can see I´ve pointed out the location of the workspace, the workspace as the data source and the query to run.
 
@@ -63,7 +63,7 @@ When it comes to the schedule, the maximum number you can set (as of the time wr
 
 I also tell which action group to use, along with the formatting of the alert being sent out.
 
-![Azure ARM Template - Deploying Azure Monitor alerts](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-6.png)
+![Azure ARM Template - Deploying Azure Monitor alerts](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-6.png)
 
 ### **Post-deployment checkup in the Azure portal**
 
@@ -71,7 +71,7 @@ As soon as the deployment succeeded, we can head into the Monitor section of the
 
 As soon as one of the queries has a result count of 1 or more, the alert will fire and in this case, I will receive an e-mail.
 
-![Azure ARM Template - Azure Monitor alert rules](https://danielorneling.github.io/assets/images/posts/2020/06/azure-monitor-alerts-7.png)
+![Azure ARM Template - Azure Monitor alert rules](https://blog.orneling.se/assets/images/2020/06/azure-monitor-alerts-7.png)
 
 ### **Summary**
 
