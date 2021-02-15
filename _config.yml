@@ -56,7 +56,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
+sidebar:
   name   : "Daniel Örneling"
   avatar : "/assets/images/profile-pics/ProfilePic_large.jpg"
   bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
