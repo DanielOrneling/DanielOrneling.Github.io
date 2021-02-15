@@ -73,6 +73,8 @@ author:
     - label: "Mail"
       icon: "fab fa-fw fa-envelope"
       url: "mailto:Daniel@Orneling.se"
+
+
   image: "/assets/images/sponsors/altaro/250x250.png"
 
 footer:
@@ -104,6 +106,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  -scope: 
+    values:
+      sidebar:
+        - image: ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
 
 comments:
   provider: "disqus"
