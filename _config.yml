@@ -56,7 +56,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-Daniel:
+author:
   name   : "Daniel Örneling"
   avatar : "/assets/images/profile-pics/ProfilePic_large.jpg"
   bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
@@ -74,8 +74,8 @@ Daniel:
       icon: "fab fa-fw fa-envelope"
       url: "mailto:Daniel@Orneling.se"
 
-Sponsors:  
-  avatar: "/assets/images/sponsors/altaro/250x250.png"
+sidebar:
+  image: "/assets/images/sponsors/altaro/250x250.png"
 
 footer:
   links:
