@@ -104,6 +104,11 @@ defaults:
       layout: single
       author_profile: true
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "orneling-blog"
+
 category_archive:
   type: liquid
   path: /categories/
