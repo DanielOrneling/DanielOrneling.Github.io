@@ -1,6 +1,7 @@
 ---
 title: "ARM Templates: Deploying Azure Monitor Alerts"
 date: "2020-06-03"
+excerpt_separator: "<!--More-->"
 categories: 
   - "arm-templates"
   - "azure"
@@ -25,7 +26,7 @@ Firstly, if you haven´t read my previous posts about ARM Templates you can find
 - [ARM Templates: Working with nested templates in Azure](https://blog.orneling.se/2020/05/arm-templates-working-with-nested-templates-in-azure/)
 
 I am deploying a workspace with a bunch of performance counters pre-configured on which the alerts rely on. If you don’t know how to do that yet, go through the previous posts where I show it in detail.
-
+<!--More-->
 ### **Preparing the main template with parameters and variables**
 
 Before we can deploy the alert rules, we need to state what kind of information we need. The first thing I´m going to do is to set the e-mail recipient of the alerts I will be creating. There is a possibility to ad SMS recipients as well, but I won´t go through that in this post. Basically, what you need to state is the name of the recipient and it´s e-mail address. I´ve chosen to put this as a parameter since this is most likely something that will change for most deployments.
