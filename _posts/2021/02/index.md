@@ -21,7 +21,7 @@ In this blog, we will look at some of the critical challenges users face while m
 ### **Significant Azure Monitoring challenges**
 Azure application monitoring poses a long list of challenges that users must overcome to achieve better performance and efficiency.
 
-### ** Lack of Application-level/holistic monitoring**
+### **Lack of Application-level/holistic monitoring**
 When examining typical Azure architecture’s anatomy, every application is designed with a combination of multiple siloed Azure resources like Service Bus, Azure Functions, and Virtual Machines across the stack. When the user intends to monitor in the business application context, it is impossible to do so.
 
 Azure Monitor is restricted to monitor individual Azure resources, and users must move between different components to achieve visibility on them.
