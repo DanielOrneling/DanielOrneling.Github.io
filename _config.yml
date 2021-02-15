@@ -74,8 +74,11 @@ author:
       icon: "fab fa-fw fa-envelope"
       url: "mailto:Daniel@Orneling.se"
 
+sidebar:
+  - text: |
+      Below is an image from Placeholder.com.
 
-  image: "/assets/images/sponsors/altaro/250x250.png"
+      [![](DanielOrneling.Github.io/master/assets/images/sponsors/altaro/250x250.png)
 
 footer:
   links:
