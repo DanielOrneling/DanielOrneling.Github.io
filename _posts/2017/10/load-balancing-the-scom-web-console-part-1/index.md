@@ -18,7 +18,7 @@ For this to work, I have added an extra NIC to both my SCOM servers that are run
 
 Right click the VM and select Settings. If you haven´t done so already, add an extra NIC to the servers where you have installed the SCOM web console. Click Advanced Features and check “Enable MAC address spoofing”.
 
-Repeat this process for the all your web console servers and set an IP address on the new interfaces in your servers. You´re ready to move on to the cluster creation. [![](images/1.jpg)](http://media.orneling.se/2017/10/1.jpg)
+Repeat this process for the all your web console servers and set an IP address on the new interfaces in your servers. You´re ready to move on to the cluster creation. [![](images/1.jpg)]
 
 **Creating the cluster**
 
