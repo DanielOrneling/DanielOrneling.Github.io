@@ -15,7 +15,8 @@ Applications provisioned on Azure are built on top of architecture that is siloe
 
 <!--More-->
 
-[Monitoring Azure Resources](https://www.serverless360.com/microsoft-azure-monitoring/){:target="_blank"}.Monitoring Azure Resources using the Azure-native tool can be challenging even for the most skilled and experienced person due to its complex and overlap offerings.
+### **Monitoring Azure Resources**
+[Monitoring Azure Resources](https://www.serverless360.com/microsoft-azure-monitoring/){:target="_blank"} using the Azure-native tool can be challenging even for the most skilled and experienced person due to its complex and overlap offerings.
 
 If you have tried monitoring in the Azure portal, you might have faced a situation where a tool-A would require monitoring a resource-R. Still, if you want to do another monitoring activity on the same resource-R, you will need to use tool-B. This would undoubtedly lead a user to collect cumbersome of data from disparate sources.
 In this blog, we will look at some of the critical challenges users face while monitoring Azure resources using [Azure Monitor](https://www.serverless360.com/microsoft-azure-monitoring/){:target="_blank"} and how to overcome it.
