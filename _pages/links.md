@@ -6,6 +6,7 @@ title: "Links"
 This is the place where you can find great Azure links and other related product sites.
 
 Below are some of the best blogs that i know of. If you think I´ve missed your blog in the list or any other blog, let me know.
+
 Cameron Fuller: [link](https://www.catapultsystems.com/author/cfuller/){:target="_blank"}
 
 Billy York: [link](https://www.cloudsma.com/){:target="_blank"}
