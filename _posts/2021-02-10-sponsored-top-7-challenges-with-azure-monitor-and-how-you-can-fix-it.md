@@ -1,6 +1,7 @@
 ---
 title: "Sponsored: Top 7 challenges with Azure Monitor and how you can fix it."
 date: "2021-02-10"
+excerpt_separator: "<!--More-->"
 categories: 
   - "Azure"
   - "Azure Monitor"
@@ -12,6 +13,7 @@ In the cloud adoption era, organizations urge to deploy their system to a modern
 
 Applications provisioned on Azure are built on top of architecture that is siloed and highly dynamic. Hence, it is inevitable to monitor the applications and services of Azure to maximise the availability, performance, reliability, and consumption.
 
+<!--More-->
 
 [Monitoring Azure Resources](https://www.serverless360.com/microsoft-azure-monitoring/){:target="_blank"}.Monitoring Azure Resources using the Azure-native tool can be challenging even for the most skilled and experienced person due to its complex and overlap offerings.
 
