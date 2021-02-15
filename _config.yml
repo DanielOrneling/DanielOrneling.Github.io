@@ -106,10 +106,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-  -scope: 
+  - scope:
+      path: ""
+      type: posts
     values:
       sidebar:
-        - image: ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
+        - text: >
+           ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
 
 comments:
   provider: "disqus"
