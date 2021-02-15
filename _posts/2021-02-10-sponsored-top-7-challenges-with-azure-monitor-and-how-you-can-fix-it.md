@@ -63,14 +63,13 @@ With a detailed study and understanding of Azure application architectures & its
 It has the following capabilities to address the above monitoring challenges.
 
 With Serverless360’s Composite Application feature, you can logically group all your siloed Azure resources in a single pane of glass to monitor in a business application context.\
-![](./images/2021-02-10-Serverless360-1.png)
-(/assets/images/posts/2021-02-10-Serverless360-1.png)\
+![](./images/2021-02-10-Serverless360-1.png)\
 Serverless360 built-in monitors provide you with a consolidated report on the status of all resources of your Azure application\
-(/assets/images/posts/2021-02-10-Serverless360-2.png)\
+![](./images/2021-02-10-Serverless360-2.png)\
 You can monitor any number of resources on multiple metrics in a single alert to eliminate the additional cost\
 With Serverless360’s extensive monitors, you can monitor the properties and status of the Azure resources with customizable warning and error thresholds to prevent outages
 Threshold monitor in Serverless360 allows restoring business by auto-correcting resource state absolutely with no manual intervention
-(/assets/images/posts/2021-02-10-Serverless360-3.png)\
+![](./images/2021-02-10-Serverless360-3.png)\
 Whether you are running Azure Functions, Logic Apps, Azure Data Factory, or something else entirely – Serverless360 got you covered. Visualize the performance of more than 100+ Azure resources with customizable, plug and play dashboards
-(/assets/images/posts/2021-02-10-Serverless360-4.png)\
+![](./images/2021-02-10-Serverless360-4.png)\
 Serverless360 supports a wide range of Notification channels like Pager Duty, Slack, OMS, Microsoft Teams along with Webhook and email channels that Azure Monitor does not support.
