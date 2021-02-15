@@ -19,11 +19,11 @@ In my series of blog posts about working with ARM templates I have gone through 
 
 Firstly, if you haven´t read my previous posts about ARM Templates you can find them below:
 
-- [Getting started with Azure ARM templates](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates/){:target="_blank"}\
-- [ARM Templates: Working with naming conventions](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions/){:target="_blank"}\
-- [ARM Templates: Working with tags in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure/){:target="_blank"}\
-- [ARM Templates: Working with parameters in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-parameters-in-azure/){:target="_blank"}\
-- [ARM Templates: Working with nested templates in Azure](https://blog.orneling.se/2020/05/arm-templates-working-with-nested-templates-in-azure/){:target="_blank"}\
+- [Getting started with Azure ARM templates](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates/){:target="_blank"}
+- [ARM Templates: Working with naming conventions](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions/){:target="_blank"}
+- [ARM Templates: Working with tags in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure/){:target="_blank"}
+- [ARM Templates: Working with parameters in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-parameters-in-azure/){:target="_blank"}
+- [ARM Templates: Working with nested templates in Azure](https://blog.orneling.se/2020/05/arm-templates-working-with-nested-templates-in-azure/){:target="_blank"}
 
 I am deploying a workspace with a bunch of performance counters pre-configured on which the alerts rely on. If you don’t know how to do that yet, go through the previous posts where I show it in detail.
 <!--More-->
@@ -79,6 +79,6 @@ As you see here, deploying Azure Monitor alerts don´t need to be that complicat
 
 The template itself isn´t that complicated, but there are some things to think about. The main thing I want to point out is the action group short name which needs to be a maximum of 12 letters. If you want to read more about setting up Azure Monitor alerts using ARM templates, look [here](https://docs.microsoft.com/en-us/azure/azure-monitor/samples/resource-manager-samples).
 
-I have uploaded the templates and the PowerShell deployment script to my GitHub repo, which you can find [here](https://github.com/DanielOrneling/BlogSamples/tree/master/NestedTemplateAlertsSample){:target="_blank"}\. Use them just as you want.
+I have uploaded the templates and the PowerShell deployment script to my GitHub repo, which you can find [here](https://github.com/DanielOrneling/BlogSamples/tree/master/NestedTemplateAlertsSample){:target="_blank"}. Use them just as you want.
 
 If you have any comments or questions, leave a comment below and I´ll get back as soon as possible.
