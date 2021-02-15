@@ -63,7 +63,7 @@ With a detailed study and understanding of Azure application architectures & its
 It has the following capabilities to address the above monitoring challenges.
 
 With Serverless360’s Composite Application feature, you can logically group all your siloed Azure resources in a single pane of glass to monitor in a business application context.\
-![](./images/2021-02-10-Serverless360-1.png)\
+![](https://danielorneling.github.io/assets/images/posts/2021/02/images/2021-02-10-Serverless360-1.png)\
 Serverless360 built-in monitors provide you with a consolidated report on the status of all resources of your Azure application\
 ![](./images/2021-02-10-Serverless360-2.png)\
 You can monitor any number of resources on multiple metrics in a single alert to eliminate the additional cost\
