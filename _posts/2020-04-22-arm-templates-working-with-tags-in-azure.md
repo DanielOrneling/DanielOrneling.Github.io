@@ -27,35 +27,35 @@ For this example, I´m going to use an ARM template to apply tags to resources a
 
 The first thing I have done is to add three new parameters: Department, Environment and Owner. Nothing fancy, you just copy a previous parameter and switch out the values to the new one you desire.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-1.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-1.jpg)
 
 The next step is to insert the tagging information in the ARM template in the right place. It should be inserted like you can see below right between “location” and “properties”. You just insert the tag as “TagName”: “\[parameters(‘TagName’)\]” followed by the rest of the tags.
 
 And that´s it for the arm template in this example. You just need to repeat this process for each different resource you have added to your template. Just paste the information right between location and properties on the rest of the resources and you´re good to go.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-2.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-2.jpg)
 
 ### **Deploying the template and verifying its function**
 
 I used the same PowerShell script as last time to deploy the ARM template. As you can see here it lists the parameters we typed in and all looks good.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-3.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-3.jpg)
 
 Looking in the Azure portal we can see the new workspace created, along with the tags we provided.
 
 Tagging resources isn´t at all complicated, but it adds a real value useful in multiple scenarios. Just to be able to check who is spending the most money or to see which department using the most resources is a completely new way to keep track of the expense in the company.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-4.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-4.jpg)
 
 ### **Checking all resources with a certain tag**
 
 As you can see in the below picture you can push the button, I pointed out to see all resources with that certain tag. In my case where it´s my own lab environment there’s no chock that most resources are tagged with my name, but in a live customer environment this is a great way to find the person responsible for the resource. In this view, you can also add new tags to a resource.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-5.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-5.jpg)
 
 Below is a view where you can see all resources tagged with me as the owner.
 
-![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-6.png)
+![](https://danielorneling.github.io/assets/images/posts/2020/04/tags-6.jpg)
 
 ### **Summary**
 
