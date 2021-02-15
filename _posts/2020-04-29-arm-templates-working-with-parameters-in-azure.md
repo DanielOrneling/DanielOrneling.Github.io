@@ -15,7 +15,7 @@ tags:
   - "powershell"
 ---
 
-Working with parameters in Azure is something I want to discuss a bit more than what I´ve done earlier. Azure tags have recently been covered on this blog, my previous post about that can be found [here](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure/). Since I posted that article, I had another Azure blogger, Martin Ehrnst who is also an Azure MVP ([his blog here](https://adatum.no/)) reached out to me teaching me a few things. When I did the last Azure tags post, I created one parameter for each tag I wanted to create. However, that´s not necessary.
+Working with parameters in Azure is something I want to discuss a bit more than what I´ve done earlier. Azure tags have recently been covered on this blog, my previous post about that can be found [here](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure/){:target="_blank"}. Since I posted that article, I had another Azure blogger, Martin Ehrnst who is also an Azure MVP [his blog here](https://adatum.no/){:target="_blank"} reached out to me teaching me a few things. When I did the last Azure tags post, I created one parameter for each tag I wanted to create. However, that´s not necessary.
 
 Instead of creating one parameter for each tag, I have switched over to a new way of doing it. Instead of creating a single string, I create the tags as an object type. This means that I will be able to pass multiple values (in this case its tags) as one parameter instead. Have a look below.
 <!--More-->
