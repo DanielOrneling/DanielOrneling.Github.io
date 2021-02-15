@@ -73,8 +73,6 @@ author:
     - label: "Mail"
       icon: "fab fa-fw fa-envelope"
       url: "mailto:Daniel@Orneling.se"
-
-sidebar:
   image: "/assets/images/sponsors/altaro/250x250.png"
 
 footer:
