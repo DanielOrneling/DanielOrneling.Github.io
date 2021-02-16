@@ -13,27 +13,48 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# Site Settings
+locale                   : "en-US"
 title: A blog on Microsoft Azure by Daniel Örneling
 email: Daniel@Orneling.se
-description: >- # this means to ignore newlines until "baseurl:"
-  A blog about Azure by Daniel Örneling.
+name: "A blog on Microsoft Azure by Daniel Örneling"
+description: "A blog about Azure by Daniel Örneling."
+url: #"https://blog.orneling.se" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: # the subpath of your site, e.g. "/blog"
+repository: "DanielOrneling/DanielOrneling.Github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 twitter_username: DanielOrneling
 github_username: DanielOrneling
 minimal_mistakes_skin: dark
 search: true
-
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "orneling-blog"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+excerpt_separator: "<!--More-->"
+# Environment
+environment: production
 # Outputting
 permalink: /:year/:month/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Stockholm
-
+# Social Sharing
+twitter:
+  username               : DanielOrneling
 include:
   - _pages
   - disqus.html
+# Analytics
+analytics:
+  provider               : google-universal # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : UA-44707633-1
+    anonymize_ip         : false # true, false (default)
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -60,6 +81,7 @@ author:
   name   : "Daniel Örneling"
   avatar : "/assets/images/profile-pics/ProfilePic_large.jpg"
   bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
+  location: Trelleborg, Sweden
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -76,8 +98,12 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danielorneling"
-    - url: "https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts468x60-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[1]"
-      image: "/assets/images/sponsors/altaro/468x60.png"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DanielOrneling"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-orneling/"
 
 defaults:
   # _posts
@@ -98,9 +124,7 @@ defaults:
       type: posts
     values:
       sidebar:
-        - text: >
-           ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
-          url: "https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2]"
+        - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
   # _pages
   - scope:
       path: ""
@@ -117,10 +141,6 @@ defaults:
            ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
           url: "https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2]"
 
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: "orneling-blog"
 
 category_archive:
   type: liquid
