@@ -27,13 +27,13 @@ MOMADAdmin.exe ORNELING ORNELINGScom_Admins scomaction_svc ORNELING
 
 Executing this command must be done by an account with Domain Admins right to be able to create the container. See below how it´s done;
 
-![]((../../../../assets/images/2013/11/1.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/1.jpg)
 
  
 
 Here´s how the AD looks after the command had been executed.
 
-![]((../../../../assets/images/2013/11/2.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/2.jpg)
 
 ### Configure the Management Server to allow new agents to communicate with it
 
@@ -41,55 +41,55 @@ The next thing after the container has been created is to configure the Manageme
 
 This is done by navigating in the console to Administration -> Management Servers and right clicking the server you want to configure. See the pictures below and follow the process.
 
-![]((../../../../assets/images/2013/11/3.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/3.jpg)
 
  
 
 Click Next to move on with the wizard
 
-![]((../../../../assets/images/2013/11/4.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/4.jpg)
 
  
 
 Click "Configure..." to start creating your AD query.
 
-![]((../../../../assets/images/2013/11/5.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/5.jpg)
 
  
 
 Create a query that matches your needs, in my case my servers are all named TBOM etc. so i want the name to start with TB to be picked up by this rule.
 
-![]((../../../../assets/images/2013/11/6.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/6.jpg)
 
  
 
 If there are servers that should´nt be picked up by this rule, type in the FQDN of them here to exclude them from the rule.
 
-![]((../../../../assets/images/2013/11/7.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/7.jpg)
 
  
 
 Create your failover rules if you don´t want Automatic failover to happen. In this case, i only have one Management Server so I´m sticking to the default value.
 
-![]((../../../../assets/images/2013/11/8.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/8.jpg)
 
  
 
 The next thing was to Delete the Management Group Data on one of my agent machines to test the rule. I opened up Microsoft Monitoring Agent from the Control Panel and deleted the information. After "Automatically update management group assignments from AD DS" has been checked, press Apply and then wait for a while for the AD rule to run.
 
-![]((../../../../assets/images/2013/11/9.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/9.jpg)
 
  
 
 After a while you can see this event in the Operations Manager event log on the Management Server. As you can see, six servers matched my criteria and were added to the AD group.
 
-![]((../../../../assets/images/2013/11/10.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/10.jpg)
 
  
 
 After the event seen above, the agent information had been updated on my agent server and it started answering to heart beats again.
 
-![]((../../../../assets/images/2013/11/11.jpg)
+![](https://blog.orneling.se/assets/images/2013/11/11.jpg)
 
  
 
