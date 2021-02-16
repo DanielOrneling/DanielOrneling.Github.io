@@ -1,6 +1,6 @@
 ---
 title: "Title fo the post"
-date: "YYYY-MM-DD"
+date: "2021-02-16"
 excerpt_separator: "<!--More-->"
 categories: 
   - "Azure"
