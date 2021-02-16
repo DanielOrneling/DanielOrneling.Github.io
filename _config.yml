@@ -93,7 +93,6 @@ defaults:
       share: true
       related: true
       show_date: true
-    values:
       sidebar:
         - text: >
            ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
