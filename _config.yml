@@ -137,10 +137,7 @@ defaults:
       type: pages
     values:
       sidebar:
-        - text: >
-           ![_](https://github.com/DanielOrneling/DanielOrneling.Github.io/blob/master/assets/images/sponsors/altaro/250x250.png?raw=true)
-          url: "https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2]"
-
+        - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
 
 category_archive:
   type: liquid
