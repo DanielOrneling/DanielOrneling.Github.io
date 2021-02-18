@@ -20,7 +20,7 @@ I know some has mentioned this when they´ve done the same move as I´ve done no
 The maintenance part isn´t something I have missed out on, but the opposite. Every time I´ve logged in to the blog´s admin interface there has been 4-5 plugin updates to attend to. That´s boring, takes a lot of time and you never knew if things were gonna fail afterwards or not.
 
 The other two main issues I have had with my current hoster is the amount of outages. I´ve been with the same hoster for about 5 or 6 years now and I lost count of how many times the blog alerted in the middle of the night for an outage lasting everywhere from 5 minutes to 4 hours. All with no previous notice.
-That along with the price, around $170 a year for a not so well performing blog got me to finally take the step of moving the blog.
+That along with the price, around $170 a year for a not so well performing blog got me to finally take the step of moving the blog. GitHub pages is free and you don´t need to pay for any extra SSL certificates, GitHub takes care of that for you and it took about 15 minutes after adding my custom domain before my site were secured and I had my new SSL certificate in place.
 
 ### **The switch**
 I saw Tao´s post earlier this year and that got me thinking about making the switch myself. Once I started digging into it, there were some serious time to put into it but most of the time were to just rewrite and make sure the formatting of the posts was correct even on the new blog.
