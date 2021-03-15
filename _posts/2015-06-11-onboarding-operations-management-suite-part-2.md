@@ -9,7 +9,7 @@ categories:
   - "orneling-se"
 ---
 
-In my last post which you can find [here](http://blog.orneling.se/2015/06/onboarding-operations-management-suite-part-1/){:target="_blank"}, I showed how you can connect your on-prem SCOM management group to Operations Management Suite. The procedure is the same as when you connected to Azure Operational Insights (before it was renamed yet again to OMS), but this time it was done from within the technical preview 2 of SCOM 2016.
+In my last post which you can find [here](https://blog.orneling.se/2015/06/onboarding-operations-management-suite-part-1){:target="_blank"}, I showed how you can connect your on-prem SCOM management group to Operations Management Suite. The procedure is the same as when you connected to Azure Operational Insights (before it was renamed yet again to OMS), but this time it was done from within the technical preview 2 of SCOM 2016.
 
 Now that we´ve covered the SCOM connection part, let´s move over to the stand-alone connection part instead. OMS is a great solution both for small, medium and large companies with a varying amount of servers. If you don´t have SCOM implemented but still want to benefit from OMS, then keep on reading to find out how it´s done.
 <!--More-->

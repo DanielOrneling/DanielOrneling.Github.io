@@ -8,7 +8,7 @@ categories:
   - "orneling-se"
 ---
 
-My last big blog post about [monitoring Nano server](http://blog.orneling.se/2016/05/set-monitor-nano-server/){:target="_blank"} is dated May 17th which makes it approximately 6 weeks since then. Out of that 6 weeks, 3 weeks have been vacation but now it’s time to get this blog going again.
+My last big blog post about [monitoring Nano server](https://blog.orneling.se/2016/05/set-monitor-nano-server){:target="_blank"} is dated May 17th which makes it approximately 6 weeks since then. Out of that 6 weeks, 3 weeks have been vacation but now it’s time to get this blog going again.
 <!--More-->
 So what are we talking about today? The long-awaited for possibility to create your own solutions in OMS have arrived! It´s still in preview and I saw it a couple of days ago for the first time so this is where I will show you how to get started with the “View Designer”. 
 **Activating the feature** 

@@ -9,7 +9,7 @@ tags:
   - "scom"
 ---
 
-When Operations Manager has been up and running for a while, a couple of overrides MP’s are created that we don´t want to lose. A while back, I wrote a blog post about how to schedule a backup of the custom MP’s using Powershell and Task Scheduler. Since that script were a bit longer than necessary, I decided to erase some lines of code to make it an easier script. If you want to read the old blog post, you can find it [here](http://blog.orneling.se/2012/12/automatically-backup-unsealed-management-packs-in-scom-2012/){:target="_blank"}.
+When Operations Manager has been up and running for a while, a couple of overrides MP’s are created that we don´t want to lose. A while back, I wrote a blog post about how to schedule a backup of the custom MP’s using Powershell and Task Scheduler. Since that script were a bit longer than necessary, I decided to erase some lines of code to make it an easier script. If you want to read the old blog post, you can find it [here](https://blog.orneling.se/2012/12/automatically-backup-unsealed-management-packs-in-scom-2012){:target="_blank"}.
 <!--More-->
 ### So what does the script do?
 

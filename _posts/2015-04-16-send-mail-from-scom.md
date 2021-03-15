@@ -61,7 +61,7 @@ The attachment is also included in the mail making it real easy to find out more
 
 **Follow up on what happens to the alert**
 
-The last thing i want to show is what happens to the alert when you have forwarded it as I´ve shown in this post. The General tab of the alert shows the e-mail recipient as the owner of the alert now that I have received it by mail along with E-Mail as a Ticket ID. These are the fields populated by SCSM when SCOM and SCSM is integrated. If you want to know more about that process, check [this post](http://blog.orneling.se/2013/05/connecting-operations-manager-to-service-manager/){:target="_blank"}.
+The last thing i want to show is what happens to the alert when you have forwarded it as I´ve shown in this post. The General tab of the alert shows the e-mail recipient as the owner of the alert now that I have received it by mail along with E-Mail as a Ticket ID. These are the fields populated by SCSM when SCOM and SCSM is integrated. If you want to know more about that process, check [this post](https://blog.orneling.se/2013/05/connecting-operations-manager-to-service-manager){:target="_blank"}.
 
 ![](https://blog.orneling.se/assets/images/2015/04/3.jpg)
 

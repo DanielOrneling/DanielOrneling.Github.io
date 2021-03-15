@@ -13,9 +13,9 @@ The last weeks I have blogged more about what you can do with Microsoft Operatio
 <!--More-->
 You can find the three previous posts below.
 
-- [Automatically create AD users with Azure Automation and OMS](http://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation/){:target="_blank"}
-- [Create Azure AD users with Azure Automation](http://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation/){:target="_blank"}
-- [Delegate automation rights in Azure Automation](http://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation){:target="_blank"}
+- [Automatically create AD users with Azure Automation and OMS](https://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation){:target="_blank"}
+- [Create Azure AD users with Azure Automation](https://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation){:target="_blank"}
+- [Delegate automation rights in Azure Automation](https://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation){:target="_blank"}
 
 **Setting up the prerequisites**
 

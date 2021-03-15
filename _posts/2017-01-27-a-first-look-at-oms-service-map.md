@@ -17,7 +17,7 @@ Soon it became clear that this was about to be rebuilt and launched as a part of
 
 To get going you need to complete three tasks. You must add the “Service Map” solution in your Log Analytics workspace.
 
-Then you need to install the OMS agent on your server and in this first post I´m going to look into Windows servers. You could either install the agent manually as shown [here](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents){:target="_blank"}, or you could take advantage of my blog post where I presented a PowerShell script to do it for you. Find the blog post [here](http://blog.orneling.se/2017/01/installing-oms-agent-with-powershell/){:target="_blank"}.
+Then you need to install the OMS agent on your server and in this first post I´m going to look into Windows servers. You could either install the agent manually as shown [here](https://docs.microsoft.com/en-us/azure/log-analytics/log-analytics-windows-agents){:target="_blank"}, or you could take advantage of my blog post where I presented a PowerShell script to do it for you. Find the blog post [here](https://blog.orneling.se/2017/01/installing-oms-agent-with-powershell){:target="_blank"}.
 
 Once the agent is installed and connected to your workspace, you need to install the Dependendy Agent which is used to discover the relationships between the servers. This agent needs to be installed on each server you want to gain information about.
 

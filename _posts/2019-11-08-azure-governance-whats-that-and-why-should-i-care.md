@@ -63,10 +63,10 @@ Yes, the SE VM is based in Ireland but that´ll change once the Azure datacenter
 
 #### Learn more about Azure Monitor in these posts:
 
-- [Get notified on Azure service health issues](https://blog.orneling.se/2019/06/get-notified-on-azure-service-health-issues/){:target="_blank"}
-- [Looking at the available Azure Monitor data sources](https://blog.orneling.se/2019/06/looking-at-the-available-azure-monitor-data-sources/){:target="_blank"}
-- [Azure Monitor – Getting started with alerting](https://blog.orneling.se/2019/05/azure-monitor-getting-started-with-alerting/){:target="_blank"}
-- [Migrating lots of agents to Azure Log Analytics](https://blog.orneling.se/2019/05/migrating-lots-of-agents-to-azure-log-analytics/){:target="_blank"}
+- [Get notified on Azure service health issues](https://blog.orneling.se/2019/06/get-notified-on-azure-service-health-issues){:target="_blank"}
+- [Looking at the available Azure Monitor data sources](https://blog.orneling.se/2019/06/looking-at-the-available-azure-monitor-data-sources){:target="_blank"}
+- [Azure Monitor – Getting started with alerting](https://blog.orneling.se/2019/05/azure-monitor-getting-started-with-alerting){:target="_blank"}
+- [Migrating lots of agents to Azure Log Analytics](https://blog.orneling.se/2019/05/migrating-lots-of-agents-to-azure-log-analytics){:target="_blank"}
 
 #### **So how can I Azure Governance in my environment?**
 

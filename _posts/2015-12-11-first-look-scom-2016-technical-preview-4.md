@@ -8,7 +8,7 @@ categories:
   - "orneling-se"
 ---
 
-And so that beautiful time has come again (I admit I´m a little late with this one as its been out for about three weeks now) when a new technical preview has been released of System Center 2016. This time, the term Technical Preview is followed by the number 4. In my last "technical preview post", I went through the news of number 2. If you want to read that post, you will find it [here](http://blog.orneling.se/2015/05/a-first-look-at-the-scom-2016-technical-preview-2/){:target="_blank"}.
+And so that beautiful time has come again (I admit I´m a little late with this one as its been out for about three weeks now) when a new technical preview has been released of System Center 2016. This time, the term Technical Preview is followed by the number 4. In my last "technical preview post", I went through the news of number 2. If you want to read that post, you will find it [here](https://blog.orneling.se/2015/05/a-first-look-at-the-scom-2016-technical-preview-2){:target="_blank"}.
 <!--More-->
 **So what´s new this time?**
 

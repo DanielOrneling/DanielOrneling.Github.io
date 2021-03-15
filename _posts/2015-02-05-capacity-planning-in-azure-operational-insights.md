@@ -79,7 +79,7 @@ Now we want to see what´s been discovered by SCOM so let´s head over to the Mo
 
 Now that we have setup the connection between SCOM and SCVMM, we´ve met the requirements to get the Capacity Planning working. If you´ve ever activated an intelligence pack before, you might know how it´s done. It´s exactly the same procedure as all the other IP´s.
 
-Log on to AOI [here](http://preview.opinsights.azure.com){:target="_blank"} and then click "Intelligence Packs". (Dont have an account yet? Check my post [here](http://blog.orneling.se/2014/05/set-new-system-center-advisor-preview){:target="_blank"} on how to onboard.
+Log on to AOI [here](http://preview.opinsights.azure.com){:target="_blank"} and then click "Intelligence Packs". (Dont have an account yet? Check my post [here](https://blog.orneling.se/2014/05/set-new-system-center-advisor-preview){:target="_blank"} on how to onboard.
 
 ![](https://blog.orneling.se/assets/images/2015/02/14.jpg)
 

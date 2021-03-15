@@ -9,7 +9,7 @@ categories:
 
 So, the summer is almost over and I´m back from my vacation. In other words, time to dig into things again. A couple of weeks ago Microsoft launched System Center 1807 as an update for the previous version, 1801. So let us dig into SCOM 1807.
 
-When System Center 1801 was launched, it marked the start of the Semi-Annual Channel which means that a new version will be released twice a year. You can read more about the different release models in my blog post [here](https://blog.orneling.se/2017/11/news-about-scom-1801/){:target="_blank"}.
+When System Center 1801 was launched, it marked the start of the Semi-Annual Channel which means that a new version will be released twice a year. You can read more about the different release models in my blog post [here](https://blog.orneling.se/2017/11/news-about-scom-1801){:target="_blank"}.
 <!--More-->
 **So what´s new in SCOM 1807 then?** There are some nice additions in this new version as you can see below;
 

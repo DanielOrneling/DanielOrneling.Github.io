@@ -9,7 +9,7 @@ categories:
 
 Quite often, i run into customers that are using a DMZ for hosting their web servers and sites. Since they don´t share the domain with the other servers, such as DC´s and Sharepoint servers monitoring can be a little tricky the first time. This is possible using either gateway servers or just server certificates. The difference is that when the DMZ servers are in a separate domain, a Gateway server can be used instead of just a certificate.
 <!--More-->
-This guide will focus on using server certificate for a DMZ server that acts as a stand-alone-server in the DMZ.. This requires that a Certificate Template is created in your environent, read more about how to do this [**_here_**](http://blog.orneling.se/2013/01/create-a-certificate-template-for-monitoring-non-domain-members/){:target="_blank"}
+This guide will focus on using server certificate for a DMZ server that acts as a stand-alone-server in the DMZ.. This requires that a Certificate Template is created in your environent, read more about how to do this [**_here_**](https://blog.orneling.se/2013/01/create-a-certificate-template-for-monitoring-non-domain-members){:target="_blank"}
 
 Please note that the following procedure **must** be performed on both the Management Server and the DMZ servers for proper function. The guide requires all of the steps where you create the certificate to be performed on the Management Server.
 

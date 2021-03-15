@@ -9,7 +9,7 @@ categories:
   - "orneling-se"
 ---
 
-Earlier this week while I was busy writing the post about [OMS and Azure Automation](http://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation){:target="_blank"}, Microsoft made the Linux agent for Operations Management Suite (OMS) available through an open preview. Before this, the only possibility of managing Linux servers in OMS was to gather diagnostics data from Linux servers running in Azure. This data was stored in an Azure storage blob from where OMS then read the data and presented as syslog events. Now, with this new agent we get a lot of new possibilities, such as near real time performance monitoring and syslog gathering.
+Earlier this week while I was busy writing the post about [OMS and Azure Automation](https://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation){:target="_blank"}, Microsoft made the Linux agent for Operations Management Suite (OMS) available through an open preview. Before this, the only possibility of managing Linux servers in OMS was to gather diagnostics data from Linux servers running in Azure. This data was stored in an Azure storage blob from where OMS then read the data and presented as syslog events. Now, with this new agent we get a lot of new possibilities, such as near real time performance monitoring and syslog gathering.
 <!--More-->
 **Installing the agent**
 

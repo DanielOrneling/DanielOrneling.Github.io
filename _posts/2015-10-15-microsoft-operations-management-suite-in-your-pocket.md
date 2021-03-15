@@ -39,7 +39,7 @@ The search made above resulted in what you see below, showing which servers have
 
 ![](https://blog.orneling.se/assets/images/2015/10/101515_0749_MicrosoftOp6.png)
 
-Another thing which I´ve recently blogged about [here](http://blog.orneling.se/2015/10/near-real-time-performance-monitoring-in-oms/){:target="_blank"}, is the Near Real Time Performance monitoring which can be used partly in the app as well. If I had run the same query as below in my PC browser, it would show me graphs over the performance as well but it doesn't seem to function in the app right now. Hopefully this will show up in a future update making the app even more useful.
+Another thing which I´ve recently blogged about [here](https://blog.orneling.se/2015/10/near-real-time-performance-monitoring-in-oms){:target="_blank"}, is the Near Real Time Performance monitoring which can be used partly in the app as well. If I had run the same query as below in my PC browser, it would show me graphs over the performance as well but it doesn't seem to function in the app right now. Hopefully this will show up in a future update making the app even more useful.
 
 ![](https://blog.orneling.se/assets/images/2015/10/101515_0749_MicrosoftOp7.png)
 

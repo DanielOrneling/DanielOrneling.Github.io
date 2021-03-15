@@ -11,15 +11,15 @@ categories:
 
 So the time has come, holidays are over and we have stepped into another year. This time it says 2016 and I think we are looking into a great year with tons of possibilities, such as System Center 2016, Windows Server 2016 along with continuous updates to Operations Management Suite and a lot more. I ended last year with writing a series of five blog posts about how you can use Azure Automation and OMS to finish some of your repetitive tasks for you. Find them all below and take a look. Who knowns? This might be just what you´ve been looking for?
 <!--More-->
-- [Import new modules into Azure Automation (Part 1)](http://blog.orneling.se/2015/11/import-new-modules-into-azure-automation/){:target="_blank"}
-- [Automatically create AD users with Azure Automation and OMS (Part 2)](http://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation-and-oms/){:target="_blank"}
-- [Create Azure AD users with Azure Automation (Part 3)](http://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation/){:target="_blank"}
-- [Create service accounts using Azure Automation and OMS (Part 4)](http://blog.orneling.se/2015/12/create-service-accounts-using-azure-automation-and-oms/){:target="_blank"}
-- [Delegate automation rights in Azure Automation (Part 5)](http://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation/){:target="_blank"}
+- [Import new modules into Azure Automation (Part 1)](https://blog.orneling.se/2015/11/import-new-modules-into-azure-automation){:target="_blank"}
+- [Automatically create AD users with Azure Automation and OMS (Part 2)](https://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation-and-oms){:target="_blank"}
+- [Create Azure AD users with Azure Automation (Part 3)](https://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation){:target="_blank"}
+- [Create service accounts using Azure Automation and OMS (Part 4)](https://blog.orneling.se/2015/12/create-service-accounts-using-azure-automation-and-oms){:target="_blank"}
+- [Delegate automation rights in Azure Automation (Part 5)](https://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation){:target="_blank"}
 
-[](http://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation/)Now that I have covered how you can import modules, create users and delegate rights to the runbooks I thought that I should create another runbook to help you out with another repetitive (and boring) task. If you´re an administrator, most likely you have been approached by a user with an expired password or that he/she has just forgotten about their password during the holidays. Wouldn't it be nice if you could delegate this task of resetting passwords to the colleague itself or if the colleague could just turn to the person next to him/her and get it solved instantly?
+[](https://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation/)Now that I have covered how you can import modules, create users and delegate rights to the runbooks I thought that I should create another runbook to help you out with another repetitive (and boring) task. If you´re an administrator, most likely you have been approached by a user with an expired password or that he/she has just forgotten about their password during the holidays. Wouldn't it be nice if you could delegate this task of resetting passwords to the colleague itself or if the colleague could just turn to the person next to him/her and get it solved instantly?
 
-This post will show you how you can use Azure Automation and OMS to reset your AD password by using the Hybrid Worker Role (more information about this in the previous posts). By combining this post with [post number 5](http://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation/){:target="_blank"} in the above list, you can delegate rights to your users to easily reset their own password as long as they know about their last password used.
+This post will show you how you can use Azure Automation and OMS to reset your AD password by using the Hybrid Worker Role (more information about this in the previous posts). By combining this post with [post number 5](https://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation){:target="_blank"} in the above list, you can delegate rights to your users to easily reset their own password as long as they know about their last password used.
 
 **Preparing for the runbook implementation**
 
@@ -33,7 +33,7 @@ To let you know that the runbook actually does what I say it will do, I made sur
 
 ![](https://blog.orneling.se/assets/images/2016/01/reset_ad_user_2.png)
 
-Before you move on to firing up the runbook, make sure to register an OMS agent as a Hybrid Worker. Find out how to do this in [post number 2](http://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation/){:target="_blank"} above.
+Before you move on to firing up the runbook, make sure to register an OMS agent as a Hybrid Worker. Find out how to do this in [post number 2](https://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation){:target="_blank"} above.
 
 After you have registered a Hybrid worker, you **must delegate rights** to the OU of the user to the computer account running the OMS agent. If you forget to do this, you will not be able to execute the runbook. It took me a while to figure this out the first time so don't miss this and you will save yourself the head ache and frustration J.
 

@@ -19,7 +19,7 @@ tags:
   - "resourcemanager"
 ---
 
-In my last post which you can find [_here_](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates/){:target="_blank"}, I wrote about how to get started writing ARM templates for you Azure deployments. In the end I provided an ARM template built solely for that blog post. But the template was really basic and didn’t have much logic built into it, except for addressing a parameter to name the automation account and a variable to set the location where to create the automation account.
+In my last post which you can find [_here_](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates){:target="_blank"}, I wrote about how to get started writing ARM templates for you Azure deployments. In the end I provided an ARM template built solely for that blog post. But the template was really basic and didn’t have much logic built into it, except for addressing a parameter to name the automation account and a variable to set the location where to create the automation account.
 
 As long as you don´t need anything else than just setting a simple name, that sample template works fine to create a simple automation account. But what if you want to comply with your naming conventions that you´ve come up with for your cloud resources? To do this we need to look at another ARM template function, which I use heavily to set the correct names etc. for my resources.
 <!--More-->

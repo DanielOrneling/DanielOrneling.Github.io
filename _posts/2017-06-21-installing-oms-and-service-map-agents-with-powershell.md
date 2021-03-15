@@ -11,7 +11,7 @@ categories:
   - "service-manager"
 ---
 
-Back in January this year I wrote a post about how you can install the OMS agent using PowerShell. Now the time has come to include the Service Map agent in the equation as well since this is a feature that recently got Generally Available. You can find the original post about installing the OMS agent [here](http://blog.orneling.se/2017/01/installing-oms-agent-with-powershell/){:target="_blank"}. What´s new in this script is that I have added a section for downloading and installing the Service Map agent as well. Enough talking, let´s get to it!
+Back in January this year I wrote a post about how you can install the OMS agent using PowerShell. Now the time has come to include the Service Map agent in the equation as well since this is a feature that recently got Generally Available. You can find the original post about installing the OMS agent [here](https://blog.orneling.se/2017/01/installing-oms-agent-with-powershell){:target="_blank"}. What´s new in this script is that I have added a section for downloading and installing the Service Map agent as well. Enough talking, let´s get to it!
 <!--More-->
 **Preparations**
 
@@ -153,6 +153,6 @@ And then you will have your server assesses using the Service Map agent as you c
 
 **Summary** I hope this will help you out in installing OMS and Service Map agents in your environment. I have deactivated the section in the script that deletes the C:\\Source folder when the installation is done. This is simply because you shouldn´t delete the folder if you have any other important files in there. Feel free to use the line if you want to, but you will need to activate it yourself by editing the script and removing the lines 83 and 94.
 
-If you want to know more about Service Map, you can check out my previous posts, [A first look at OMS Service Map](http://blog.orneling.se/2017/01/a-first-look-at-oms-service-map/){:target="_blank"} and [A deeper look at OMS Service Map](http://blog.orneling.se/2017/02/a-deeper-look-at-oms-service-map/){:target="_blank"}.
+If you want to know more about Service Map, you can check out my previous posts, [A first look at OMS Service Map](https://blog.orneling.se/2017/01/a-first-look-at-oms-service-map/){:target="_blank"} and [A deeper look at OMS Service Map](https://blog.orneling.se/2017/02/a-deeper-look-at-oms-service-map/){:target="_blank"}.
 
 If there are any questions, just leave a comment below and I´ll get back as soon as possible. Otherwise, have fun deploying agents in your environment 😊

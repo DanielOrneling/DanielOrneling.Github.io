@@ -86,10 +86,10 @@ I have uploaded the templates and the PowerShell deployment script to my GitHub 
 
 If you havent read my previous posts about ARM Templates you can find them below:
 
-- [Getting started with Azure ARM templates](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates/){:target="_blank"}
-- [ARM Templates: Working with naming conventions](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions/){:target="_blank"}
-- [ARM Templates: Working with tags in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure/){:target="_blank"}
-- [ARM Templates: Working with parameters in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-parameters-in-azure/){:target="_blank"}
+- [Getting started with Azure ARM templates](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates){:target="_blank"}
+- [ARM Templates: Working with naming conventions](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions){:target="_blank"}
+- [ARM Templates: Working with tags in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-tags-in-azure){:target="_blank"}
+- [ARM Templates: Working with parameters in Azure](https://blog.orneling.se/2020/04/arm-templates-working-with-parameters-in-azure){:target="_blank"}
 
 As always, if you have any comments or questions, leave a comment below and I´ll get back as soon as possible.
 

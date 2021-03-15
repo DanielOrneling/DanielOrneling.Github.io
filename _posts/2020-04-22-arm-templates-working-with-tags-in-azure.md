@@ -13,7 +13,7 @@ tags:
   - "tags"
 ---
 
-Working with tags in Azure is a really important thing. It´s something that everyone should do as soon as they start to move workloads to Azure. In my last two posts I showed how to get started [here](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates/){:target="_blank"}. And [here](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions/){:target="_blank"} I showed how to comply with your naming conventions for Azure resources as well. The two examples I showed in those posts aren´t at all complicated, but they lack one major thing. Tags.
+Working with tags in Azure is a really important thing. It´s something that everyone should do as soon as they start to move workloads to Azure. In my last two posts I showed how to get started [here](https://blog.orneling.se/2020/03/getting-started-with-azure-arm-templates){:target="_blank"}. And [here](https://blog.orneling.se/2020/03/arm-templates-working-with-naming-conventions){:target="_blank"} I showed how to comply with your naming conventions for Azure resources as well. The two examples I showed in those posts aren´t at all complicated, but they lack one major thing. Tags.
 <!--More-->
 ### First things first, why should you work with tags?
 

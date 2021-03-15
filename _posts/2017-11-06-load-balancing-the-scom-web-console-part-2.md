@@ -7,7 +7,7 @@ categories:
   - "orneling-se"
 ---
 
-It´s time for the second post about load-balancing the SCOM Web Console that I started publishing last week in this two-post series. In the first post I showed how to setup the foundation which in this case consists of a two-node cluster, which I created using Network Load Balancing which is a feature of Windows Server. If you haven´t already read the first post, read it [here](http://blog.orneling.se/2017/10/load-balancing-the-scom-web-console-part-1/){:target="_blank"} before diving into this post.
+It´s time for the second post about load-balancing the SCOM Web Console that I started publishing last week in this two-post series. In the first post I showed how to setup the foundation which in this case consists of a two-node cluster, which I created using Network Load Balancing which is a feature of Windows Server. If you haven´t already read the first post, read it [here](https://blog.orneling.se/2017/10/load-balancing-the-scom-web-console-part-1){:target="_blank"} before diving into this post.
 
 What I will show in this post is how to configure the SCOM web console to allow for us to have Single Sign-On working.
 <!--More-->

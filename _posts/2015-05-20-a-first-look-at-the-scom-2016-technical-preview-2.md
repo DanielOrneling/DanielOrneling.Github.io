@@ -9,10 +9,10 @@ categories:
   - "orneling-se"
 ---
 
-As I mentioned in my last post which you can find [here](http://blog.orneling.se/2015/05/system-center-2016-operations-manager-whats-new/), SCOM 2016 has quite a lot of nice new features such as the scheduled maintenance mode. What I will show you briefly here is how to install the technical preview 2 of SCOM 2016 and what it takes to do so. You will also get a glimpse of the new scheduled maintenance mode feature :) Download the Technical Preview of System Center 2016 [here](https://www.microsoft.com/en-us/evalcenter/evaluate-system-center-technical-preview?WT.mc_id=Blog_SC_Announce_TTD){:target="_blank"}. 
+As I mentioned in my last post which you can find [here](https://blog.orneling.se/2015/05/system-center-2016-operations-manager-whats-new), SCOM 2016 has quite a lot of nice new features such as the scheduled maintenance mode. What I will show you briefly here is how to install the technical preview 2 of SCOM 2016 and what it takes to do so. You will also get a glimpse of the new scheduled maintenance mode feature :) Download the Technical Preview of System Center 2016 [here](https://www.microsoft.com/en-us/evalcenter/evaluate-system-center-technical-preview?WT.mc_id=Blog_SC_Announce_TTD){:target="_blank"}. 
 <!--More-->
 **Prerequisites**
-If you´ve ever installed SCOM 2012 or 2012 R2, the only difference is that you _**must**_ be running SQL Server 2014 to be able to install the product. I did try to install it using a SQL Server 2012 instance as well but then I couldn´t find the instance from within the setup process. Other than the SQL part, the prerequisites are the same. Take a look at [this post](http://blog.orneling.se/2014/04/let-powershell-install-scom-prerequisites/){:target="_blank"} on how you can automate the installation of all the prereqs.
+If you´ve ever installed SCOM 2012 or 2012 R2, the only difference is that you _**must**_ be running SQL Server 2014 to be able to install the product. I did try to install it using a SQL Server 2012 instance as well but then I couldn´t find the instance from within the setup process. Other than the SQL part, the prerequisites are the same. Take a look at [this post](https://blog.orneling.se/2014/04/let-powershell-install-scom-prerequisites){:target="_blank"} on how you can automate the installation of all the prereqs.
 
 **The installation process**
 

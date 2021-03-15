@@ -10,7 +10,7 @@ categories:
   - "orneling-se"
 ---
 
-A while back I wrote a post where I went through the basics and how to get started with the new feature Service Map, which is a part of OMS nowadays. Read the post [here](http://blog.orneling.se/2017/01/a-first-look-at-oms-service-map/){:target="_blank"}. That post only showed how to get started and what kind of information you will get from the solution, but it didn´t say anything about troubleshooting. And at last, it did just explain how to get started with your Windows servers (or clients for that matter).
+A while back I wrote a post where I went through the basics and how to get started with the new feature Service Map, which is a part of OMS nowadays. Read the post [here](https://blog.orneling.se/2017/01/a-first-look-at-oms-service-map){:target="_blank"}. That post only showed how to get started and what kind of information you will get from the solution, but it didn´t say anything about troubleshooting. And at last, it did just explain how to get started with your Windows servers (or clients for that matter).
 
 Today I will go through how to get up and running with Linux servers as well, as well as some troubleshooting.
 <!--More-->

@@ -14,12 +14,12 @@ In my earlier posts about what you can do with Azure Automation and OMS I have b
 
 If you want to read the historic posts, you´ll find them below:
 
-- [Import new modules into Azure Automation (Part 1)](http://blog.orneling.se/2015/11/import-new-modules-into-azure-automation/){:target="_blank"}
-- [Automatically create AD users with Azure Automation and OMS (Part 2)](http://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation/){:target="_blank"}
-- [Create Azure AD users with Azure Automation (Part 3)](http://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation/){:target="_blank"}
-- [Create service accounts using Azure Automation and OMS (Part 4)](http://blog.orneling.se/2015/12/create-service-accounts-using-azure-automation/){:target="_blank"}
-- [Delegate automation rights in Azure Automation (Part 5)](http://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation/){:target="_blank"}
-- [Reset AD user password using Azure Automation and OMS (Part 6)](http://blog.orneling.se/2016/01/reset-ad-user-password-using-azure-automation/){:target="_blank"}
+- [Import new modules into Azure Automation (Part 1)](https://blog.orneling.se/2015/11/import-new-modules-into-azure-automation){:target="_blank"}
+- [Automatically create AD users with Azure Automation and OMS (Part 2)](https://blog.orneling.se/2015/11/automatically-create-ad-users-with-azure-automation){:target="_blank"}
+- [Create Azure AD users with Azure Automation (Part 3)](https://blog.orneling.se/2015/11/create-azure-ad-users-with-azure-automation){:target="_blank"}
+- [Create service accounts using Azure Automation and OMS (Part 4)](https://blog.orneling.se/2015/12/create-service-accounts-using-azure-automation){:target="_blank"}
+- [Delegate automation rights in Azure Automation (Part 5)](https://blog.orneling.se/2015/11/delegate-automation-rights-azure-automation){:target="_blank"}
+- [Reset AD user password using Azure Automation and OMS (Part 6)](https://blog.orneling.se/2016/01/reset-ad-user-password-using-azure-automation){:target="_blank"}
 
 Once you´ve read the posts and when you have registered a Hybrid Worker group, it´s time to point out the credentials to use for executing the runbooks.
 
