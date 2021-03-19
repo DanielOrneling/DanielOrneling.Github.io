@@ -120,11 +120,11 @@ defaults:
       related: true
       show_date: true
   #- scope:
-      path: ""
-      type: posts
-    values:
-      sidebar:
-        - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
+  #    path: ""
+  #    type: posts
+  #  values:
+  #    sidebar:
+  #      - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
   # _pages
   - scope:
       path: ""
@@ -133,11 +133,11 @@ defaults:
       layout: single
       author_profile: true
   #- scope:
-      path: ""
-      type: pages
-    values:
-      sidebar:
-        - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
+  #    path: ""
+  #    type: pages
+  #  values:
+  #    sidebar:
+  #      - text: "[![Altaro](/assets/images/sponsors/altaro/250x250.png)](https://go.altaro.com/?LP=orneling-sc-Banner-avmb-ts250x250-EN&Cat=SC&utm_source=orneling&utm_medium=sc&utm_campaign=avmb-ts&utm_content=banner[2])"
 
 category_archive:
   type: liquid
