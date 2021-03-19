@@ -119,7 +119,7 @@ defaults:
       share: true
       related: true
       show_date: true
-  - scope:
+  #- scope:
       path: ""
       type: posts
     values:
@@ -132,7 +132,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  - scope:
+  #- scope:
       path: ""
       type: pages
     values:
