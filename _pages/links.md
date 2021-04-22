@@ -14,3 +14,4 @@ Michael Jonsson´s [blog](https://azurefabric.com/){:target="_blank"}\
 Sam Cogan´s [blog](https://samcogan.com/){:target="_blank"}\
 Kevin Greene´s [blog](https://kevingreeneitblog.blogspot.com/){:target="_blank"}\
 Stanislav Zhelyazkov´s [blog](https://cloudadministrator.net/){:target="_blank"}\
+Gianni Castaldi´s [blog](https://www.kustoking.com//){:target="_blank"}\ 
