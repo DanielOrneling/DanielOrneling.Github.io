@@ -80,12 +80,12 @@ plugins:
 author:
   name   : "Daniel Örneling"
   avatar : "/assets/images/profile-pics/ProfilePic_large.jpg"
-  bio    : "A senior consultant focusing on Azure infrastructure at AddPro. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
+  bio    : "A senior consultant focusing on Azure infrastructure. In this blog, you will find news and information covering Microsoft Azure in general, Azure Monitor and much more."
   location: Trelleborg, Sweden
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/danielorneling"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/danielorneling"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DanielOrneling"
@@ -95,9 +95,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/danielorneling"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://X.com/danielorneling"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DanielOrneling"
